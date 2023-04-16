@@ -1,5 +1,6 @@
-export default function SuperSlowComponent() {
-  const now = performance.now();
+export const SuperSlowComponent = () => {
+  const now = performance.now()
+  /* eslint-disable */
   while (performance.now() - now < 200) {}
-  return <div>Super slow component</div>;
+  return <div>Super slow component</div>
 }

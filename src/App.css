@@ -16,7 +16,7 @@ input {
   border-radius: 15px;
   box-shadow: none;
   border: 2px solid pink;
-  font-family: "Avenir Next";
+  font-family: 'Avenir Next';
   font-size: 20px;
 }
 
@@ -37,11 +37,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: "Avenir Next";
+  font-family: 'Avenir Next';
 }
 
 .temp {
-  font-family: "Avenir Next";
+  font-family: 'Avenir Next';
   font-size: 20px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 0.5rem;
@@ -52,7 +52,7 @@ body {
 
 h1 {
   font-size: 25px;
-  font-family: "Avenir", sans-serif;
+  font-family: 'Avenir', sans-serif;
   color: #fff;
 }
 
