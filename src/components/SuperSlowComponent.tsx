@@ -3,6 +3,7 @@ export const SuperSlowComponent = () => {
   // さらにコメントアウトを追加する
   // 追加でコメントアウト
   // コミット
+  // コミット
   const now = performance.now()
   /* eslint-disable */
   while (performance.now() - now < 200) {}
