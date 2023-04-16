@@ -11,7 +11,17 @@
     "lint:js:fix": "npm run lint -- --fix",
     "lint:css": "stylelint --ignore-path .gitignore \"src/**/*.+(css|ts|tsx)\"",
     "lint:css:fix": "npm run lint:css -- --fix",
-    "format": "prettier --write \"**/*.+(js|json|yml|ts|tsx)\""
+    "format": "prettier --write \"**/*.+(js|json|yml|ts|tsx)\"",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts,jsx,tsx}": [
+      "npm run format",
+      "npm run lint:js:fix",
+      "npm run lint:css:fix",
+      "git add"
+    ]
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -35,6 +45,8 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.1",
     "postcss-syntax": "^0.36.2",
     "prettier": "^2.8.7",
     "stylelint": "^15.5.0",
