@@ -7,7 +7,7 @@
   "parserOptions": {
     "project": ["./tsconfig.json"]
   },
-  "ignorePatterns": ["vite.config.ts"],
+  "ignorePatterns": ["vite.config.ts", "commitlint.config.js"],
   "rules": {
     // eslint-config-airbnb（eslint)
     "spaced-comment": "off",
