@@ -3,7 +3,7 @@
   "config": {
     "cz-emoji": {
       "subjectMaxLength": 72,
-      "messages": {
+      "questions": {
         "type": "コミットする内容はどの型ですか",
         "scope": "コミットが影響するスコープを選んでください",
         "subject": "変更内容を簡潔に書いてください",
