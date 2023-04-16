@@ -10,19 +10,17 @@ export const FilterButton: React.FC<FilterButtonProps> = ({
   items
 }) => {
   return (
-    <div>
-      <nav>
-        {items.map((item) => (
-          <button
-            type="button"
-            key={item}
-            onClick={() => changeFilter(item)}
-            className={currentFilter === item ? 'active' : ''}
-          >
-            {item}
-          </button>
-        ))}
-      </nav>
-    </div>
+    <nav>
+      {items.map((item) => (
+        <button
+          type="button"
+          key={item}
+          onClick={() => changeFilter(item)}
+          className={currentFilter === item ? 'active' : ''}
+        >
+          {item}
+        </button>
+      ))}
+    </nav>
   )
 }
