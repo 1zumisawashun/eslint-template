@@ -1,12 +1,3 @@
-// import styled from '@emotion/styled'
-
-// const Test = styled('div')`
-//   font-size: 16px;
-//   margin-top: 6px;
-//   width: 100%;
-//   background-color: white;
-// `
-
 type FilterButtonProps = {
   currentFilter: string
   changeFilter: (newFilter: string) => void
