@@ -45,11 +45,6 @@ export const Button: React.VFC<ButtonProps> = ({
       onClick={onClick}
       disabled={isDisabled}
       fullWidth={fullWidth}
-      // startIcon={icon}
-      sx={{
-        marginTop: () => (size === 'medium' || fullWidth ? '10px' : '0px'),
-        marginBottom: () => (size === 'medium' || fullWidth ? '10px' : '0px')
-      }}
     >
       {!isLoading && <p>{children}</p>}
       {isLoading && <CircularProgress color="secondary" size={25} />}
