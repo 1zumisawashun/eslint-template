@@ -1,14 +1,16 @@
 {
-  "path": "cz-conventional-changelog-ja",
+  "path": "cz-emoji",
   "config": {
     "cz-emoji": {
       "subjectMaxLength": 72,
-      "skipQuestions": [
-        "scope",
-        "body",
-        "breaking",
-        "footer"
-      ],
+      "messages": {
+        "type": "コミットする内容はどの型ですか",
+        "scope": "コミットが影響するスコープを選んでください",
+        "subject": "変更内容を簡潔に書いてください",
+        "body": "変更内容の詳細があれば書いてください",
+        "breaking": "重要な変更があれば書いてください",
+        "issues": "このコミットで閉じるIssuesがあれば書いてください。例： #123:"
+      },
       "types": [
         {
           "emoji": "✨",
