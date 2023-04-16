@@ -3,7 +3,6 @@ import MuiButton from '@mui/material/Button'
 import { SvgIconProps } from '@mui/material'
 import CircularProgress from '@mui/material/CircularProgress'
 
-
 interface ButtonProps {
   children: ReactNode
   icon?: SvgIconProps

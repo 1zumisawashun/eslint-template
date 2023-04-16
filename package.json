@@ -23,6 +23,11 @@
       "git add"
     ]
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -31,6 +36,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
