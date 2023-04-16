@@ -1,5 +1,5 @@
 {
-  "path": "cz-emoji",
+  "path": "cz-conventional-changelog-ja",
   "config": {
     "cz-emoji": {
       "subjectMaxLength": 72,
