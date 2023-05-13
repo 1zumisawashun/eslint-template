@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async'
-import ReactIcon from '../../assets/react.svg'
+import ReactIcon from '@/assets/react.svg'
 
 type HeadProps = {
   title?: string

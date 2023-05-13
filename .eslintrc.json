@@ -17,6 +17,7 @@
     // eslint-config-airbnb（eslint-plugin-import)
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
     // eslint-config-airbnb（eslint-plugin-react）
     "react/require-default-props": "off",
     "react/prop-types": "off",

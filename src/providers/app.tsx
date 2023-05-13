@@ -2,7 +2,7 @@ import { ReactNode, Suspense } from 'react'
 import { ErrorBoundary } from 'react-error-boundary'
 import { HelmetProvider } from 'react-helmet-async'
 import { BrowserRouter } from 'react-router-dom'
-import { ErrorFallback } from '../functions/libs'
+import { ErrorFallback } from '@/functions/libs'
 
 type AppProviderProps = {
   children: ReactNode
