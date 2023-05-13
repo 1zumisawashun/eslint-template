@@ -4,7 +4,7 @@ eslint-template
 
 ## Overview
 
-- overview
+- https://github.com/1zumisawashun/eslint-template
 
 ## 環境
 
@@ -62,3 +62,7 @@ $ npm run lint
 ## その他ドキュメント
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+- 依存関係
+
+<img width="700" alt="image" src="https://github.com/1zumisawashun/eslint-template/assets/65071534/7ecd1824-ad88-4713-ab1f-90a6ae98ef65">
