@@ -1,6 +1,6 @@
 import { FallbackProps } from 'react-error-boundary'
 
-export const ErrorForbidden: React.FC<FallbackProps> = ({
+export const ErrorFallback: React.FC<FallbackProps> = ({
   error,
   resetErrorBoundary
 }) => {
@@ -16,14 +16,5 @@ export const ErrorForbidden: React.FC<FallbackProps> = ({
         </button>
       </div>
     </div>
-  )
-}
-
-export const ErrorFallback: React.FC<FallbackProps> = ({
-  error,
-  resetErrorBoundary
-}) => {
-  return (
-    <ErrorForbidden error={error} resetErrorBoundary={resetErrorBoundary} />
   )
 }

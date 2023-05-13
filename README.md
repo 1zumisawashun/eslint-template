@@ -1,30 +1,28 @@
 # eslint-template
 
-eslint-templateです。
+eslint-template
 
 ## Overview
 
-- eslint-templateです。
-- 
+- overview
 
 ## 環境
 
 | ライブラリ              | バージョン |
 | ----------------------- | ---------- |
 | react                   | 18.2.0     |
-| firebase                | 9.15.0     |
-| typescript              | 4.9.3      |
-| stripe                  | 11.7.0     |
-| @stripe/react-stripe-js | 1.16.3     |
-| @stripe/stripe-js       | 1.46.0     |
+| react-dom                | 18.2.0     |
+| react-error-boundary              | 4.0.4      |
+| react-helmet-async                  | 1.3.0     |
+| react-router-dom | 6.11.1     |
 
 ## Installation
 
 - clone
 
 ```bash
-$ git clone git@github.com:1zumisawashun/postcoffee-lp-vue.git
-$ cd postcoffee-lp-vue
+$ git clone git@github.com:1zumisawashun/eslint-template.git
+$ cd eslint-template
 ```
 
 - install
@@ -36,16 +34,22 @@ $ npm install
 - ローカル開発用 URL を開き動作確認をする
 
 ```bash
-$ npm run serve
+$ npm run dev
 ```
 
-http://localhost:8080/
+http://localhost:5173
 
 - 上記の手順で失敗する場合 [Troubleshoot](#Troubleshoot)を確認してください
 
 ## How to
 
-- フォーマットを効かせる
+- commitする
+
+```bash
+$ npm run commit
+```
+
+- formatを当てる
 
 ```bash
 $ npm run lint
