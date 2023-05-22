@@ -1,21 +1,14 @@
-import { ReactNode, Suspense } from 'react'
-import { ErrorBoundary } from 'react-error-boundary'
+import { Suspense } from 'react'
 import { HelmetProvider } from 'react-helmet-async'
-import { BrowserRouter } from 'react-router-dom'
-import { ErrorFallback } from '@/functions/libs'
+import { RouterProvider } from 'react-router-dom'
+import { router } from '@/routers/app'
 
-type AppProviderProps = {
-  children: ReactNode
-}
-
-export const AppProvider: React.FC<AppProviderProps> = ({ children }) => {
+export const AppProvider: React.FC = () => {
   return (
     <Suspense fallback={<div>loading...</div>}>
-      <ErrorBoundary FallbackComponent={ErrorFallback}>
-        <HelmetProvider>
-          <BrowserRouter>{children}</BrowserRouter>
-        </HelmetProvider>
-      </ErrorBoundary>
+      <HelmetProvider>
+        <RouterProvider router={router} />
+      </HelmetProvider>
     </Suspense>
   )
 }

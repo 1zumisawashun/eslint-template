@@ -1,13 +1,15 @@
 import { useMemo } from 'react'
+import { breakpoints } from '@/functions/constants/breakpoints'
 
 export const useBoolean = () => {
   const isLocalhost = useMemo(() => {
     return document.location.hostname === 'localhost'
   }, [])
 
-  const isSp = useMemo(() => {
-    return window.innerWidth <= 576
-  }, [])
+  const isIphone5 = useMemo(() => window.innerWidth <= breakpoints.iphone5, [])
+  const isSp = useMemo(() => window.innerWidth <= breakpoints.sp, [])
+  const isTab = useMemo(() => window.innerWidth <= breakpoints.tab, [])
+  const isPc = useMemo(() => window.innerWidth <= breakpoints.pc, [])
 
-  return { isLocalhost, isSp }
+  return { isLocalhost, isIphone5, isSp, isTab, isPc }
 }

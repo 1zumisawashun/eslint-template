@@ -1,1 +1,1 @@
-// export {} from ""
+export { ErrorFallback } from './ErrorFallback'

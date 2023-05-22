@@ -4,7 +4,7 @@ eslint-template
 
 ## Overview
 
-- https://github.com/1zumisawashun/eslint-template
+- https://zenn.dev/shuuuuuun/articles/127728961f89a0
 
 ## 環境
 
@@ -49,10 +49,16 @@ http://localhost:5173
 $ npm run commit
 ```
 
-- formatを当てる
+- format（prettier）を当てる
 
 ```bash
-$ npm run lint
+$ npm run format
+```
+
+- format（eslint）を当てる
+
+```bash
+$ npm run lint:js:fix
 ```
 
 ## Troubleshoot
@@ -61,8 +67,9 @@ $ npm run lint
 
 ## その他ドキュメント
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuration Reference](https://react.dev/).
 
-- 依存関係
+- UI周りの依存関係
 
-<img width="700" alt="image" src="https://github.com/1zumisawashun/eslint-template/assets/65071534/7ecd1824-ad88-4713-ab1f-90a6ae98ef65">
+<img width="424" alt="image" src="https://github.com/1zumisawashun/contact-form-react/assets/65071534/f61971c0-e115-4813-a111-d7385ff3cbac">
+
