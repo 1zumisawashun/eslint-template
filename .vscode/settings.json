@@ -8,6 +8,7 @@
   // UIの細かい変更
   // "editor.glyphMargin": false,
   // "editor.folding": false,
+  "editor.stickyScroll.enabled": true,
   // "workbench.colorCustomizations": {
   //   "editor.lineHighlightBackground": "#222",
   //   "editorLineNumber.foreground": "#1e1e1e",
