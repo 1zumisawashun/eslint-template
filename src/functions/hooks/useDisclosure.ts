@@ -1,13 +1,6 @@
 import { useCallback, useState } from 'react'
 
-export type UesDisclosure = {
-  isOpen: boolean
-  open: () => void
-  close: () => void
-  toggle: () => void
-}
-
-export const useDisclosure = (initial = false): UesDisclosure => {
+export const useDisclosure = (initial = false) => {
   const [isOpen, setIsOpen] = useState(initial)
 
   const open = useCallback(() => setIsOpen(true), [])
