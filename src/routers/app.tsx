@@ -5,10 +5,13 @@ import {
   Outlet
 } from 'react-router-dom'
 import { lazyImport } from '@/functions/helpers'
-import { ErrorFallback } from '@/components/uis'
+import { ErrorFallback } from '@/components'
 
-const { Catalog } = lazyImport(() => import('../pages/Catalog'), 'Catalog')
-const { Home } = lazyImport(() => import('../pages/Home'), 'Home')
+const { Catalog } = lazyImport(
+  () => import('../pages/catalog/Catalog'),
+  'Catalog'
+)
+const { Home } = lazyImport(() => import('../pages/home/Home'), 'Home')
 
 const Layout = () => {
   return (

@@ -1,4 +1,4 @@
-import { Head } from '@/components/layouts'
+import { Head } from '@/components'
 import { Catalog as CatalogTemplate } from '@/features/catalog/Catalog'
 
 export const Catalog: React.FC = () => {
